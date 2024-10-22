@@ -6,8 +6,8 @@ const fs = require('fs')
 const cors = require('cors')
 const app=express();
 
-// const users = require("./Mock_Data.json")
-import * as users from "./Mock_Data.json"
+const users = require("./Mock_Data.json")
+//import * as users from "./Mock_Data.json"
 const PORT = process.env.PORT 
 const corsURL = process.env.REACT_URL
 
